@@ -1,0 +1,30 @@
+.form {
+  border: 1px solid rgb(43, 42, 42);
+  border-radius: 8px;
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  & span {
+    text-align: left;
+  }
+}
+
+.input {
+  padding: 5px;
+}
+
+.btn {
+  background-color: #c7c6c6;
+  border-radius: 12px;
+  &:hover {
+    background-color: rgb(135, 135, 135);
+  }
+}
