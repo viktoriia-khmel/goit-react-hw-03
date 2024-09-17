@@ -5,7 +5,7 @@ import s from './Contact.module.css'
 const Contact = ({ data: {id, name, number}, onDelete }) => {
   return (
       <div className={s.wrapper}>
-          <div>
+          <div className={s.datacontainer}>
               <p><HiUser /> {name}</p>
               <p><HiPhone /> {number}</p>
           </div>

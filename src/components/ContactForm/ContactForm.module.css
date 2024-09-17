@@ -6,6 +6,8 @@
   flex-direction: column;
   gap: 10px;
   margin-bottom: 24px;
+  width: 396px;
+  margin: 24px auto;
 }
 
 .label {
@@ -14,11 +16,13 @@
   gap: 4px;
   & span {
     text-align: left;
+    width: 364px;
   }
 }
 
 .input {
   padding: 5px;
+  width: 364px;
 }
 
 .btn {
